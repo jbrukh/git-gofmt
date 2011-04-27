@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for file in $(git diff --cached --name-only | grep "\.go")
+do
+	echo $file
+done
