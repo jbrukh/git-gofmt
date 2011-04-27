@@ -2,5 +2,6 @@
 
 for file in $(git diff --cached --name-only | grep "\.go")
 do
-	echo $file
+	echo "(gofmt) $file"
+	gofmt -w $file
 done

@@ -1,0 +1,14 @@
+Copyright (c) 2011 Jake Brukhman. <jbrukh@gmail.com>.
+All rights reserved.  See the LICENSE file for BSD-style
+license.
+
+
+gofmt git hook
+
+This simple pre-commit hook will run gofmt on your changed
+files prior to commit.  It is based on 
+
+   https://github.com/edsrzf/gofmt-git-hook
+
+but actually modifies your files automatically.  To install
+simply copy to ./git/hooks/ in your repository.
